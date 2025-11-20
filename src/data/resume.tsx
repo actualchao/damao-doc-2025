@@ -10,7 +10,7 @@ export const DATA = {
   description:
     `花名: 大猫/Damao，95年生人（${yearNum}👴）/ 6年前端老兵👨‍🚀‍ `,
   summary:
-    "2019年工业设计专业毕业,`6年前端工作经验, 1年电商视觉设计经验`, B/C端业务涉猎广泛, `逻辑、自驱是底色`，热爱 `健身💪🏻、跑步🏃🏻‍♀️、户外🚄`，目前Base杭州",
+    "2019年工业设计专业毕业,`6年前端工作经验, 1年电商视觉设计经验`, B/C端业务涉猎广泛, `专注、逻辑、自驱是底色`，热爱 `自行车🚲、摩托🛵，徒步`，目前Base杭州, ",
   avatarUrl: "/me.jpg",
   skills: ["React", "Three", "Pixi", "D3", "Rxjs", "Typescript", "架构设计"],
   navbar: [
@@ -93,30 +93,30 @@ export const DATA = {
     //   description:
     //     "负责酷家乐核心营收模块“定制工具”的日常开发与迭代支持，进行业务模块迭代、工程优化、性能优化等工作支持",
     // },
-    // {
-    //   company: "菜鸟网络",
-    //   href: "https://www.cainiao.com/",
-    //   badges: ["履行事业部"],
-    //   location: "杭州",
-    //   title: "前端开发工程师",
-    //   logoUrl: "/cainiao.png",
-    //   start: "2019/02",
-    //   end: "2020/08",
-    //   description:
-    //     "负责履行运力及仓配整体链路业务支持，为仓配线路优化、仓储调度提供可视化解决方案支持",
-    // },
-    // {
-    //   company: "兔狗科技",
-    //   href: "https://www.citytogo.com",
-    //   badges: [],
-    //   location: "杭州",
-    //   title: "前端开发工程师",
-    //   logoUrl: "/tugou.jpg",
-    //   start: "2017/07",
-    //   end: "2019/02",
-    //   description:
-    //     "负责内容增长平台建设、C端日常活动支持、电商平台业务迭代支持",
-    // },
+    {
+      company: "城云科技",
+      badges: ["城市管理应用开发部"],
+      href: undefined,
+      location: "杭州",
+      title: "前端开发工程师",
+      logoUrl: "/cci.png",
+      start: "2019/07",
+      end: "2021/02",
+      description:
+        "负责城市管理类项目整体链路业务支持，搭建基于GIS与可视化技术的应用系统，实现多维度数据实时展示",
+    },
+    {
+      company: "乐麦信息技术有限公司",
+      href: "https://www.leqee.com/",
+      badges: [],
+      location: "杭州",
+      title: "电商视觉设计",
+      logoUrl: "/leqee.jpg",
+      start: "2018/07",
+      end: "2019/07",
+      description:
+        "负责电商平台的整体视觉规划与设计，营销推广素材制作， 致力于吸引用户、传达品牌价值",
+    },
   ],
   education: [
     {
