@@ -61,7 +61,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">工作经历</h2>
           </BlurFade>
-          {DATA.work.map((work, id) => (
+          {/* {DATA.work.map((work, id) => (
             <BlurFade
               key={work.company}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
@@ -78,7 +78,7 @@ export default function Page() {
                 description={work.description}
               />
             </BlurFade>
-          ))}
+          ))} */}
         </div>
       </section>
       <section id="skills">
@@ -133,7 +133,7 @@ export default function Page() {
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
+            {/* {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
@@ -150,14 +150,14 @@ export default function Page() {
                   links={project.links}
                 />
               </BlurFade>
-            ))}
+            ))} */}
           </div>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               其他项目：
             </p>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
+              {/* {DATA.hackathons.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
@@ -171,7 +171,7 @@ export default function Page() {
                     links={project.links}
                   />
                 </BlurFade>
-              ))}
+              ))} */}
             </ul>
           </BlurFade>
         </div>

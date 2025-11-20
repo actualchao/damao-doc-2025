@@ -121,9 +121,9 @@ export const DATA = {
   education: [
     {
       school: "滁州学院",
-      // href: "https://www.lsu.edu.cn/main.htm",
+      href: "https://www.lsu.edu.cn/main.htm",
       degree: "本科、工业设计",
-      // logoUrl: "/school.jpg",
+      logoUrl: "/school.jpg",
       start: "2015",
       end: "2019",
     },
