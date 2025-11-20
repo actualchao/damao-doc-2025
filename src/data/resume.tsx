@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, QrCode } from "lucide-react";
+import { HomeIcon, NotebookIcon } from "lucide-react";
 const yearNum = new Date().getFullYear() - 1995
 export const DATA = {
   name: "吴吉超",
@@ -18,14 +18,21 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" }
   ],
   contact: {
-    email: "15706804793@163.com",
-    tel: "+86 15706804793",
+    email: "actualchao@163.com",
+    tel: "+86 15755081023",
     social: {
       GitHub: {
         name: "GitHub",
         qrcode: "",
-        url: "https://github.com/fu731033719",
+        url: "https://github.com/actualchao",
         icon: Icons.github,
+        navbar: true,
+      },
+      juejin: {
+        name: "掘金",
+        qrcode: "",
+        url: "https://juejin.cn/user/1451011080997800",
+        icon: Icons.juejin,
         navbar: true,
       },
       wx: {
@@ -35,25 +42,18 @@ export const DATA = {
         icon: Icons.wx,
         navbar: true,
       },
-      redBook: {
-        name: "小红书",
-        qrcode: "",
-        url: "https://www.xiaohongshu.com/user/profile/5d0cebc6000000001603dee9",
-        icon: Icons.redBook,
-        navbar: true,
-      },
       email: {
         name: "email",
         qrcode: "",
-        url: "mailto:15706804793@163.com",
+        url: "mailto:actualchao@163.com",
         icon: Icons.email,
         navbar: true,
       },
     },
   },
   contactContent: `
-  - 电话：+86 15706804793
-  - wx: kill_word
+  - 电话：+86 15755081023
+  - wx: Actual_chao
   - 
   `,
   work: [
