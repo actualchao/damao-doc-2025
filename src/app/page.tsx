@@ -180,7 +180,6 @@ export default function Page() {
         <div className="flex mb-3">
           <img className="size-24 mr-2" src="/wx_qrcode.jpg" alt="" />
           <img className="size-24 mr-2" src="/maimai_qrcode.jpg" alt="" />
-          <img className="size-24 mr-2" src="/blog_qrcode.png" alt="" />
         </div>
         <p className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
           👉在线地址：{DATA.url}
